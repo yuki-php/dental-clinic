@@ -1,0 +1,71 @@
+@media screen and (max-width: 768px) {
+  .header {
+    width: 100%;
+    text-align: center;
+  }
+  .wrapper {
+    height: auto;
+  }
+  .header-title {
+    position: static;
+    float: none;
+    text-align: center;
+    margin: 17px 0;
+  }
+  .header-right {
+    position: static;
+    float: none;
+    text-align: center;
+    }
+    .header-right p {
+      text-align: center;
+    }
+  .header-address {
+    position: static;
+    width: 220px;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header-right .time {
+    position: static;
+  }
+.navi {
+  position: static;
+  border-radius: 0%;
+  width: 100%;
+  height: auto;
+  margin: 12px 0;
+  background-image:  none;
+  border: none;
+}
+.navi ul {
+  height: auto;
+}
+.navi ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.navi ul li {
+  width: 50%;
+  background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+  border: solid 1px #6CC6C4;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+  
+.main {
+  float: none;
+  width: 100%;
+}
+.main .image {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+  .menu {
+    float: none;
+  }
+}

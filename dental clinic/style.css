@@ -1,0 +1,423 @@
+* {
+  line-height: 180%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0 auto;
+  padding: 0px 0 0;
+  text-align: center;
+  background: #F6F6F6;
+  color: #515151;
+  font-family: Verdana,Arial,Helvetica,'meirio','メイリオ','Hiragino Maru Gothic Pro','ヒラギノ丸ゴ Pro W4',Osaka,'ＭＳ Ｐゴシック',sans-serif;
+  box-sizing: border-box;
+  font-size: 13px;
+}
+.header {
+  margin: 0 auto 20px;
+  width: 920px;
+  text-align: left;
+  border-top: solid 8px #6CC6C4;
+  position: relative;
+}
+.wrapper {
+  height: 200px;
+  text-align: left;
+  position: relative;
+}
+.header-title {
+  float: left;
+  position: absolute;
+  top: 50px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+.header-right {
+  float: right;
+}
+.header-right p {
+  font-size: 10px;
+  text-align: left;
+  margin-top: 10px;
+}
+.header-address {
+  position: absolute;
+  right: 0;
+  top: 35px;
+  height: 75px;
+  width: 220px;
+}
+.header-address .tel {
+  background: url(https://haniwaman.com/sample/part3/template_08/common/images/bgTel.png) left center no-repeat;
+    margin: 0;
+    padding: 0 0 0 25px;
+    text-align: right;
+    font-size: 26px;
+}
+.header-address .time {
+  border: solid 1px #D6D6D6;
+  padding: 5px 0;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  width: 220px;
+  font-size: 10px;
+}
+.header-address p span {
+  color: #B22C00;;
+}
+.navi {
+  clear: both;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  border: solid 1px #6CC6C4;
+  height: 70px;
+  width: 919px;
+  background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+  border-radius: 6px;
+}
+.navi ul {
+  margin: 0;
+  padding: 0;
+  height: 70px;
+  text-align: center;
+}
+.navi ul li {
+  list-style: none;
+  float: left;
+  width: 20%;
+  display: block;
+}
+.navi ul li a {
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  height: 70px;
+  padding: 15px 0 15px;
+  border-right: #71C9C7 solid 1px;
+  border-left: #99E1DF solid 1px;
+  box-sizing: border-box;
+}
+.navi ul li a:hover {
+  background-image: linear-gradient(rgb(108,198,196) 0%,rgb(156,227,225) 100%);
+}
+.navi p {
+  margin: 0;
+}
+.txtja, .txtEn {
+  color: #fff;
+  font-weight : 700;
+}
+.txtja {
+  font-size: 14px;
+  height: 20px;
+}
+.txtEn {
+  font-size: 10px;
+}
+.contents-wrapper {
+  width: 920px;
+  margin: 0 auto;
+  text-align: left;
+  overflow: hidden;
+}
+.main {
+  float: right;
+  width: 640px;
+}
+.main .image {
+  margin-bottom: 7px;
+}
+.main img {
+  width: 640px;
+  height: 280px;
+}
+.inner {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 0px 0px 6px 6px;
+}
+.title {
+  height: 50px;
+  padding: 0;
+  margin: 0 0 15px;
+  border-bottom: solid 3px #6CC6C4;
+  color: #515151;
+}
+.title h2 {
+  margin: 0;
+  padding: 0;
+}
+.title .title-text {
+  display: block;
+  line-height: 50px;
+  padding: 0 0 0 0px;
+  font-size: 16px;
+}
+.news dl {
+  margin: 0 0 15px;
+  padding: 0 10px 10px;
+  overflow: hidden;
+}
+.news .news-topic {
+  width: 590px;
+  height: 60px;
+  padding-top: 10px;
+  border-bottom: 1px #CCCCCC dotted;
+  box-sizing: border-box;
+}
+.news dl dt {
+  font-size: 13px;
+  font-weight: 700;
+  float: left;
+  width: 113px;
+}
+.news dl dd {
+  font-size: 13px;
+  font-weight: 400;
+  float: left;
+  padding-left: 30px;
+  width: 427px;
+  margin: 0;
+}
+.menu {
+  float: left;
+  width: 260px;
+}
+.menubox {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #6CC6C4;
+  background-color: #ffffff;
+  border-radius: 6px 6px 0px 0px;
+  margin: 0 0 20px;
+  box-sizing: border-box;
+}
+.sectiontitle {
+  background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+  height: 42px;
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0 15px;
+  color: #fff;
+}
+.sectiontitle p {
+  line-height: 42px;
+  margin: 0;
+}
+.menu ul {
+  margin: 0 0 20px;
+  padding: 0;
+}
+.menu ul li {
+  margin: 0px 12px;
+  padding: 0 0 0 25px;
+  list-style: none;
+  border-bottom: #6CC6C4 solid 1px;
+  height: 42px;
+  background: url(https://haniwaman.com/sample/part3/template_08/common/images/bgListIcon01.png) no-repeat 5px center;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #595959;
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 42px;
+}
+.menu ul li a:hover {
+  color: #6CC6C4;
+}
+footer {
+  text-align: center;
+  margin-top: 20px;
+  height: 130px;
+}
+.footer-wrapper {
+  width: 920px;
+  text-align: left;
+  margin: 0 auto;
+  padding: 0;
+}
+.footer-navi ul {
+  margin: 0;
+  padding: 0 0 0 15px;
+  height: 30px;
+  list-style: none;
+  background: #6CC6C4;
+  border-radius: 6px;
+}
+.footer-navi ul li {
+  margin: 0;
+  padding: 0 20px 0 25px;
+  list-style: none;
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  background: url(https://haniwaman.com/sample/part3/template_08/common/images/bgFooterIcon.png) left center no-repeat;
+}
+.footer-navi ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-navi ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-address {
+  font-weight: bold;
+  text-align: right;
+  height: 50px;
+}
+.footer-address p {
+  line-height: 50px;
+}
+.footer-address span {
+  font-weight: 400;
+}
+.copy-address {
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 93%;
+  border-top: solid 2px #6CC6C4;
+}
+/*共通項目*/
+
+.inner h3 {
+  margin: 15px 0 15px;
+  color: #6CC6C4;
+}
+.pagetitle {
+  margin: 0 0 0px;
+  padding: 20px 0 20px 20px;
+  height: 60px;
+  border: solid 1px #6CC6C4;
+  color: #fff;
+  background-image: linear-gradient(rgb(156,227,225) 0%,rgb(108,198,196) 100%);
+  border-radius: 6px 6px 0px 0px;
+}
+.pagetitle h2 {
+  line-height: 70px;
+}
+.breadcrumb {
+  height: 15px;
+  line-height: 15px;
+  font-size: 77%;
+  padding: 5px;
+  text-align: left;
+  width: 920px;
+  margin: -10px 0 10px;
+}
+.breadcrumb ol li {
+  display: inline;
+}
+
+/*医院紹介*/
+.text-box {
+  padding: 10px;
+}
+.text-box h3 {
+  margin: 15px 0 15px;
+  color: #6CC6C4;
+}
+.text-box p {
+  margin: 13px 0 13px;
+}
+
+.company-table table {
+  text-align: center;
+  border-top: solid #999 1px;
+  border-left: solid #999 1px;
+  width: 100%;
+  border-spacing: 0;
+  margin: 0 0 20px;
+  font-size: 13px;
+}
+.company-table table th {
+  border-bottom: solid #999 1px;
+  border-right: solid #999 1px;
+  background: #D1D1D1;
+  padding: 10px;
+}
+.company-table td {
+  border-bottom: solid #999 1px;
+  border-right: solid #999 1px;
+  padding: 10px;
+  text-align: center;
+}
+.inner p {
+  margin: 1em 0 1em;
+}
+.inner p strong {
+  padding-right: 1em;
+}
+/* 診療案内*/
+.bussines-item h3 {
+  margin: 1em 0 1em;
+  color: #6CC6C4;
+}
+/* 院長・スタッフ紹介*/
+.doctor-profile {
+  height: 250px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+.doctor-profile figure {
+  padding-right: 20px;
+  width: 200px;
+  /* display: inline-block; */
+  float: left;
+}
+.doctor-profile img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 7px;
+}
+.doctor-profile .doctor-name{
+  text-align: center;
+  background: #6CC6C4;
+  color: #FFF;
+  margin: 10px 0 10px;
+}
+.doctor-profile::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.doctor-history {
+  float: left;
+}
+.doctor-history h3 {
+  margin: 15px 0 15px;
+  color: #6CC6C4;
+}
+.staff img {
+  width: 600px;
+  height: 450px;
+  margin-bottom: 10px;
+}
+hr {
+  border-width: 2px 0px 0px 0px;
+  border: solid #6CC6C4 2px;
+  margin: 6.5px 0 6.5px;
+}
+.spot::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.spot img {
+  display: block;
+  float: left;
+}
+.spot-text {
+  margin-left: 20px;
+  display: inline-block;
+}
